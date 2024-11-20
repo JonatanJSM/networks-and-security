@@ -64,29 +64,24 @@ const menuEntries = {
 ---
 
 <RootLayout title={frontmatter.title}>
-  <!-- Start navbar -->
   <div class="navbar mx-auto max-w-screen-xl border-b bg-base-100">
     <div class="navbar-start">
-      <a class="btn btn-ghost text-xl" href="/" title="SecureNet">
-        <img class="h-8 w-8" src="/logo2.svg" alt="Logo" />
-        <span>SecureNet</span>
+      <a class="btn btn-ghost text-xl" href="/" title="Redes">
+        <img class="h-8 w-8" src="/logo.svg" alt="Logo" />
       </a>
     </div>
     <div class="navbar-end">
-      <a class="btn" href="/about">Nuestro equipo</a>
+      <a class="btn btn-primary" href="/">Inicio</a>
     </div>
   </div>
-  <!-- End navbar -->
 
-  <main class="pattern min-h-[calc(100vh-4rem)]">
+  <main class="pattern">
     <div
-      class="mx-auto grid max-w-screen-lg grid-cols-[max-content_1fr] space-x-4 p-4"
+      class="mx-auto grid max-w-screen-lg grid-cols-[max-content_1fr] space-x-4 p-2"
     >
       <!-- Start article card -->
-      <div class="card card-bordered max-w-prose border-base-300 bg-base-100">
-        <figure class="aspect-[851/315] w-full">
-          <div class="cover-isometric h-full w-full"></div>
-        </figure>
+      <div class="card card-bordered  border-base-300 bg-base-100">
+        
         <div class="card-body">
           <article class="prose">
             <slot />
@@ -95,11 +90,14 @@ const menuEntries = {
       </div>
       <!-- End article card -->
 
+
       <!-- Start of sidebar -->
       <div>
         <ul class="menu rounded-box border bg-base-100">
-          <li>
-            <h2 class="menu-title">Honey Nets</h2>
+
+        <details open>
+        <summary class="menu-title">Honey Nets</summary>
+          <li>  
             <ul>
               {
                 menuEntries.honeyNets.map((entry) => (
@@ -115,8 +113,12 @@ const menuEntries = {
               }
             </ul>
           </li>
+          </details>
+
+
+        <details open>
+        <summary class="menu-title">Tunelización</summary>
           <li>
-            <h2 class="menu-title">Tunelización</h2>
             <ul>
               {
                 menuEntries.tunneling.map((entry) => (
@@ -132,8 +134,11 @@ const menuEntries = {
               }
             </ul>
           </li>
+          </details>
+
+        <details open>
+        <summary class="menu-title">Internet de las Cosas</summary>
           <li>
-            <h2 class="menu-title">Internet de las Cosas</h2>
             <ul>
               {
                 menuEntries.iot.map((entry) => (
@@ -149,6 +154,8 @@ const menuEntries = {
               }
             </ul>
           </li>
+          </details>
+
         </ul>
       </div>
       <!-- End of sidebar -->
@@ -158,15 +165,9 @@ const menuEntries = {
 
 <style>
   .pattern {
-    background-color: oklch(var(--b2));
-    opacity: 0.8;
-    background: repeating-linear-gradient(
-      45deg,
-      oklch(var(--b3)),
-      oklch(var(--b3)) 3.5px,
-      oklch(var(--b2)) 3.5px,
-      oklch(var(--b2)) 17.5px
-    );
+    background: #492972;
+    background: -webkit-linear-gradient(0deg, #492972 0%, #ffffff 50%, #a07bb7 100%);
+    background: linear-gradient(0deg, #492972 0%, #ffffff 50%, #a07bb7 100%);
   }
 
   .cover-wavy {
@@ -179,80 +180,5 @@ const menuEntries = {
       ),
       repeating-linear-gradient(#444cf755, #444cf7);
   }
-
-  .cover-circles {
-    background-color: #e5e5f7;
-    opacity: 0.8;
-    background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7),
-      repeating-radial-gradient(
-        circle at center center,
-        #444cf7,
-        #444cf7,
-        10px,
-        transparent 20px,
-        transparent 10px
-      );
-    background-blend-mode: multiply;
-  }
-
-  .cover-isometric {
-    background-color: #e5e5f7;
-    opacity: 0.8;
-    background-image: linear-gradient(
-        30deg,
-        #444cf7 12%,
-        transparent 12.5%,
-        transparent 87%,
-        #444cf7 87.5%,
-        #444cf7
-      ),
-      linear-gradient(
-        150deg,
-        #444cf7 12%,
-        transparent 12.5%,
-        transparent 87%,
-        #444cf7 87.5%,
-        #444cf7
-      ),
-      linear-gradient(
-        30deg,
-        #444cf7 12%,
-        transparent 12.5%,
-        transparent 87%,
-        #444cf7 87.5%,
-        #444cf7
-      ),
-      linear-gradient(
-        150deg,
-        #444cf7 12%,
-        transparent 12.5%,
-        transparent 87%,
-        #444cf7 87.5%,
-        #444cf7
-      ),
-      linear-gradient(
-        60deg,
-        #444cf777 25%,
-        transparent 25.5%,
-        transparent 75%,
-        #444cf777 75%,
-        #444cf777
-      ),
-      linear-gradient(
-        60deg,
-        #444cf777 25%,
-        transparent 25.5%,
-        transparent 75%,
-        #444cf777 75%,
-        #444cf777
-      );
-    background-size: 20px 35px;
-    background-position:
-      0 0,
-      0 0,
-      10px 18px,
-      10px 18px,
-      0 0,
-      10px 18px;
-  }
+  
 </style>
