@@ -3,41 +3,44 @@ layout: ../../layouts/blog-layout.astro
 title: IoT
 ---
 
-# IoT industrial
+# IIOT e Industria 4.0
 
-El IoT industrial consiste en maquinaria conectada a Internet y en avanzadas plataformas de análisis que procesan los datos que se producen. Los dispositivos IIoT van desde diminutos sensores ambientales hasta complejos robots industriales. Si bien la palabra «industrial» puede referirse a almacenes, astilleros y fábricas, las tecnologías IIoT son muy prometedoras para una amplia gama de sectores industriales, como la agricultura, la sanidad, los servicios financieros, el comercio minorista y la publicidad.
+Las iniciativas actuales de la Industria 4.0 también buscan desarrollar colaboraciones simbióticas y gratificantes entre las personas y la tecnología. Cuando la precisión y la velocidad de las herramientas 4.0 se combinan con la creatividad, el talento y la innovación de su personal, usted obtiene beneficios tanto para su fuerza laboral como para sus resultados finales. Sus operaciones de fabricación se vuelven más eficientes y productivas, y sus equipos son relevados de muchas tareas mundanas y repetitivas –dándoles la oportunidad de colaborar con tecnologías inteligentes y equiparse mejor para el entorno tecnológico en evolución y el futuro del trabajo impulsado por la IA–. 
 
-![IoT Industrial.](../../assets/iot/industry.png)
+Una concepto con similar significado es la IoT industrial, que consiste en maquinaria conectada a Internet y en avanzadas plataformas de análisis que procesan los datos que se producen. Los dispositivos IIoT van desde diminutos sensores ambientales hasta complejos robots industriales.
 
-## ¿Cuál es la diferencia entre el IoT y el IIoT?
+  ![Varios dispositivos interconectados.](../../assets/iot/industry4.jpg)
+
+---
+
+## Diferencia entre el IoT y el IIoT
 
 El IoT industrial es una subcategoría del Internet de las cosas, que también incluye aplicaciones orientadas al consumidor, como dispositivos portátiles, tecnología doméstica inteligente y automóviles sin conductor. La característica distintiva de ambos conceptos es la infraestructura, los sensores integrados en las máquinas y los dispositivos transmiten datos a través de Internet y se gestionan mediante software.
 
-## ¿Por qué utilizar el IoT industrial?
+---
 
-Para cualquier negocio que se dedique a la producción y el transporte de bienes físicos, el IIoT puede crear procesos eficientes que innovan las tareas operativas y puede presentar modelos empresariales novedosos. Estos son algunos ejemplos de las maneras en que la tecnología del IIoT podría aplicarse en diversas industrias.
+## ¿Por qué utilizar el IoT industrial? 
 
-- Producción : esta es la industria en la que se está implementando la mayoría de la tecnología de IIoT. Las máquinas habilitadas para IIoT pueden autosupervisarse y predecir problemas potenciales, lo que representa menos tiempo de inactividad y mayor eficiencia general.
-  Cadena de suministro : con el inventario gestionado por sensor, la tecnología IIoT podría encargarse de pedir suministros justo antes de que se agoten. Esto reduciría la cantidad de desperdicio producido al mantener los productos necesarios en stock y liberaría a los empleados para concentrarse en otras tareas.
+Para cualquier negocio que se dedique a la producción y el transporte de bienes físicos, el IIoT puede crear procesos eficientes que innovan las tareas operativas y puede presentar modelos empresariales novedosos.
 
-- Gestión de edificios : la tecnología IIoT podría hacer que la gestión de edificios fuese más simple y segura. Con el control del clima gestionado por sensores, se eliminarán las conjeturas y la frustración que implica el cambio manual de la climatización de un edificio. Además, los dispositivos que supervisan los puntos de entrada en el edificio y responden rápidamente a las amenazas potenciales mejorarán la seguridad del edificio.
+---
 
-- Cuidado de la salud : con dispositivos que supervisan a cada paciente de forma remota y notifican a los proveedores de atención médica en cuanto cambia el estado de un paciente, el IIoT podría hacer que el cuidado de la salud sea más preciso y receptivo. Con el tiempo, la inteligencia artificial puede incluso hacerse cargo del diagnóstico del paciente, lo que significará que los médicos podrán atenderlos de manera más rápida y efectiva.
+## Beneficios de la industria 4.0 
 
-- Venta al por menor : en el caso de las tiendas individuales, la tecnología IIoT tiene el potencial de tomar decisiones de marketing rápidas e inteligentes. Con escaparates que se actualizan automáticamente según el interés del consumidor, y con la capacidad de armar promociones inteligentes, los puntos de venta que implementen la tecnología IIoT obtendrán una ventaja significativa sobre sus competidores.
+La Industria 4.0 representa algo más que una simple actualización tecnológica. Al eliminar los silos y conectar equipos y operaciones en todo su entorno de fabricación, se comienza a establecer una forma más transparente y holística de hacer negocios –que eventualmente puede extenderse a todas las áreas de su organización–.
 
-## Tecnologías y conceptos del IIoT
+La eficiencia operativa se mejora con una asignación de recursos mejorada, un tiempo de inactividad reducido y una mayor productividad. Esta eficiencia se extiende a las iniciativas de sostenibilidad en las que las analíticas y las automatizaciones inteligentes pueden ayudar a optimizar aún más el uso de energía, reducir los residuos e incluso diseñar e innovar productos que sean más sostenibles a lo largo de su ciclo de vida.
 
-¿Cómo están aprovechando el IIoT las empresas en este momento? Aquí hay algunos ejemplos de tecnologías y conceptos de IIoT actuales y futuros:
+El hecho de que las soluciones y herramientas de la industria 4.0 le permitan recopilar, analizar e interpretar grandes cantidades de datos en tiempo real, significa que se puede obtener información estratégica accionable muy rápidamente, dándole el poder de tomar decisiones con confianza y precisión. Esto también se aplica a los clientes, porque sus demandas y expectativas también están cambiando a la velocidad de la luz. Por lo tanto, las analíticas de datos en tiempo real pueden ayudar a que adapte rápidamente para personalizar productos y brindar soluciones personalizadas on-demand.
 
-- Gemelos digitales : la práctica de crear un modelo informático de un objeto, como por ejemplo una máquina, un órgano humano o un proceso como el clima. Al estudiar el comportamiento del gemelo, es posible comprender y predecir el comportamiento de la contraparte en el mundo real y abordar los problemas antes de que ocurran.
+Vivimos en tiempos competitivos y volátiles. Las herramientas y estrategias de la Industria 4.0 ayudan a mejorar no solo la eficiencia y la productividad, sino también la capacidad de ver en los rincones y obtener una ventaja competitiva significativa. Tecnologías como internet de las cosas industrial (IIoT), conectividad en la nube, IA y machine learning ahora están profundamente integradas en el proceso de fabricación. 
 
-- Dispositivo de registro electrónico (ELD) : sensores a bordo que supervisan la velocidad, el tiempo de conducción y la frecuencia con la que el conductor utiliza los frenos, ayudan a ahorrar combustible, mejoran la seguridad del conductor y reducen los recursos inactivos. Si el conductor hace una maniobra peligrosa o está al volante durante demasiado tiempo, recibirá una alerta, y se notifica también al despachador. Esta tecnología puede sustituir a los registros en papel que los conductores solían tener que rellenar cada día.
 
-- Inteligencia en el extremo : el lugar donde los datos se generan, se analizan, se interpretan y se abordan. Usar la inteligencia en el extremo significa que el análisis se puede llevar a cabo más rápidamente y supone una reducción significativa de la probabilidad de que los datos sean interceptados o violados de alguna manera.
+![Varios dispositivos interconectados.](../../assets/iot/industry.jpg)
 
-- Mantenimiento predictivo : un sistema que implica una máquina o un componente con sensores que recopilan y transmiten datos, y después los analizan y los almacenan en una base de datos. Esta base de datos proporciona puntos de comparación para los eventos a medida que ocurren. El sistema elimina el mantenimiento innecesario y aumenta la probabilidad de evitar fallos.
+---
 
-- Identificación por radiofrecuencia (RFID) : un sistema que incluye etiquetas y lectores, como una versión más inteligente de la tecnología de código de barras. Los lectores identifican las etiquetas RFID mediante ondas de radio, lo que significa que las etiquetas pueden ser leídas por múltiples lectores a la vez y a una distancia mayor que los códigos UPC tradicionales. Las etiquetas RFID hacen posible rastrear y supervisar fácilmente los objetos a los que están adheridas.
+### Referencias
 
-[Fuente](https://www.hpe.com/mx/es/what-is/industrial-iot.html)
+- [Fuente 1](https://www.hpe.com/mx/es/what-is/industrial-iot.html)
+- [Fuente 2](https://www.sap.com/latinamerica/products/scm/industry-4-0/what-is-industry-4-0.html?url_id=text-lao-404-reclink)
