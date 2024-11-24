@@ -3,70 +3,76 @@ layout: ../../layouts/blog-layout.astro
 title: IoT
 ---
 
-# Los riesgos de seguridad y las buenas prácticas del Internet de las cosas
+# Los riesgos de seguridad, como los hacen, y como protegerse
 
-## ¿Qué es la seguridad IoT?
+## Seguridad con respecto al IoT
 
-La seguridad de la Internet de las cosas implica proteger los dispositivos de Internet y las redes a las que están conectados de las amenazas en línea y las filtraciones de datos. Esto se logra al identificar, monitorear y abordar posibles vulnerabilidades de seguridad en todos los dispositivos. Lisa y llanamente, la seguridad IoT es la práctica que mantiene seguros los sistemas IoT.
+En los últimos años, este campo ha experimentado un notable crecimiento, impulsado principalmente por la reducción en los costos de los dispositivos electrónicos. Según un estudio de Statista, se proyecta que para 2025 habrá 75 mil millones de dispositivos conectados a la red global.
 
-## ¿Por qué es importante la seguridad IoT?
+A pesar de sus enormes beneficios, el IoT plantea importantes desafíos en cuanto a la seguridad de la información. Un informe de Gartner indica que el 20 % de las organizaciones ha sufrido ataques relacionados con dispositivos IoT, mientras que un estudio de Kaspersky revela que el 36 % de las empresas han reportado accesos no autorizados a sus plataformas IoT.
 
-La IoT no abarca solo las computadoras o los teléfonos inteligentes: casi cualquier cosa que tenga un interruptor de encendido y apagado puede potencialmente conectarse a Internet y formar parte de la Internet de las cosas. El enorme volumen y la gran diversidad de "cosas" que componen la IoT implican que allí se alberga una cantidad considerable de datos de usuario. Todos estos datos están propensos a ser robados o pirateados por cibercriminales. Mientras más dispositivos conectados haya, más oportunidades tienen los cibercriminales de poner en riesgo la seguridad de esos datos. Más información sobre cómo funciona la Internet de las cosas aquí.
+Ante este panorama, implementar medidas de ciberseguridad se ha vuelto una prioridad para las empresas que buscan aprovechar al máximo las soluciones IoT sin comprometer la integridad y confidencialidad de sus datos.
 
-![Una persona utilizando una tableta.](../../assets/iot/risks.jpg)
+Es crucial que las organizaciones adopten estrategias preventivas para evitar ataques maliciosos y corrijan vulnerabilidades de manera eficiente. Ignorar estos aspectos puede afectar negativamente la percepción del público sobre la marca y sus dispositivos.
 
-Las consecuencias de las brechas de seguridad de la IoT pueden ser muy dañinas. Esto es porque la Internet de las cosas afecta a sistemas tanto virtuales como físicos. Por ejemplo, en el caso de un auto inteligente conectado a Internet, los cibercriminales podrían piratearlo para desactivar ciertas funciones de seguridad. A medida que la IoT se va imponiendo en la industria (de ahí el término IIoT o Internet industrial de las cosas) los delitos cibernéticos pueden desencadenar una serie de consecuencias potencialmente devastadoras. De igual manera, en el ámbito del cuidado de la salud (donde se utiliza el término IoMT o Internet de las cosas médicas), los dispositivos pueden dejar a la luz datos sensibles de un paciente o incluso comprometer su seguridad. En los hogares inteligentes, los dispositivos vulnerados podrían permitir a los criminales vigilar las viviendas de las personas.
+---
 
-## Riesgos para la seguridad IoT
+## Riesgos del IoT y como suceden los ataques.
 
-Los riesgos de la IoT y los principales problemas de seguridad IoT incluyen los siguientes:
+Los dispositivos IoT, independientemente de su uso, complejidad o nivel de innovación, se han convertido en un objetivo cada vez más atractivo para los ciberdelincuentes. Esto se debe a su capacidad para recopilar datos detallados sobre el perfil y comportamiento de los usuarios en áreas como finanzas, educación, salud y entretenimiento.
 
-### Falta de pruebas y desarrollo
+El acceso a los componentes físicos de estos dispositivos, como micrófonos, cámaras o información almacenada en la nube, representa un riesgo significativo para la privacidad de los usuarios.
 
-Algunos fabricantes de IoT han dejado de lado la seguridad en su prisa por lanzar sus productos al mercado. Si los riesgos de seguridad relacionados con los dispositivos se pasaron por alto en el proceso de desarrollo, una vez puestos en marcha, puede haber una falta de actualizaciones de seguridad. Sin embargo, así como ha aumentado la conciencia sobre la seguridad IoT, lo mismo sucede con la seguridad de los dispositivos.
+Tras destacar la necesidad de implementar mecanismos de seguridad robustos en el IoT, es fundamental identificar las principales amenazas asociadas y sus características más relevantes:
 
-### Contraseñas por defecto que propician los ataques de fuerza bruta
+### Espionaje
 
-Muchos dispositivos IoT vienen con contraseñas por defecto que no suelen ser seguras. Los clientes que los compran quizás no saben que pueden (y deberían) cambiarlas. Las contraseñas y las credenciales de inicio de sesión no seguras exponen a los dispositivos IoT a la piratería de las contraseñas y los ataques de fuerza bruta.
+Algunos fabricantes han llevado la recopilación de datos a extremos peligrosos, como se evidenció en casos concretos:
 
-### Malware y ransomware de IoT
+- Televisores inteligentes de Samsung: Estos dispositivos grababan conversaciones mientras esperaban comandos de voz.
+- Ositos de peluche de CloudPets: Permitían el acceso a información sensible sobre niños y sus familias.
 
-Debido al importante aumento de dispositivos IoT conectados en los últimos años (que se espera que continúe), ha aumentado el riesgo de que el malware y el ransomware se aprovechen de ellos. El malware botnet de IoT ha estado entre las variantes más comunes.
+### Ataques de malware y denegación de servicio (DDoS)
 
-### Inquietudes sobre la privacidad de los datos
+Los ciberdelincuentes a menudo emplean malware para transformar los dispositivos IoT en botnets, utilizadas en ataques de denegación de servicio distribuido (DDoS). Algunos de estos ataques incluso bloquean los dispositivos, imposibilitando su uso, lo que genera interrupciones operativas y pérdidas económicas.
 
-Los dispositivos IoT recopilan, transmiten, almacenan y procesan una enorme cantidad de datos de usuarios. Con frecuencia, estos datos pueden ser compartidos con o vendidos a un tercero. Si bien los usuarios suelen aceptar las condiciones de servicio antes de utilizar los dispositivos IoT, muchos no las leen, por lo cual no siempre tienen en claro cómo se pueden llegar a utilizar sus datos.
+### Secuestro de dispositivos
 
-### Aumento de ciberataques
+El secuestro permite a los atacantes tomar el control remoto de los dispositivos, con consecuencias graves como:
 
-Los dispositivos IoT infectados pueden utilizarse para realizar ataques de denegación de servicio distribuido (DDoS). Es entonces cuando los dispositivos secuestrados se utilizan como una base de ataque para infectar más aparatos o esconder actividad maliciosa. Si bien los ataques DDoS en los dispositivos IoT suelen afectar más a las organizaciones, también pueden estar dirigidos a los hogares inteligentes.
+- Bloqueo de puertas o cajas fuertes.
+- Intervención en sensores de vehículos autónomos, ya sea para provocar accidentes, desviar rutas o exigir un rescate por su recuperación.
 
-### El aumento del trabajo remoto
+Estas amenazas subrayan la necesidad de tomar medidas preventivas para garantizar la seguridad de los sistemas IoT y proteger tanto la privacidad como la integridad de los usuarios y las organizaciones.
 
-Tras la pandemia de COVID-19, el trabajo remoto ha aumentado en todo el mundo; Y si bien los dispositivos IoT han ayudado a que muchos usuarios puedan trabajar desde sus hogares, las redes domésticas no suelen brindar la seguridad que brindan las redes corporativas. El aumento en el uso ha sacado a la luz las vulnerabilidades en la seguridad de la IoT.
+## ![Candado de ciberseguridad](../../assets/iot/risks.jpg)
 
-### Entornos complejos
+---
 
-Un estudio revela que, en 2020, un hogar promedio en Estados Unidos tenía acceso a 10 dispositivos conectados. Basta con pasar por alto una mala configuración de seguridad en un solo dispositivo para poner en peligro toda la red doméstica.
+## ¿Cómo puedo protegerme?
 
-## Ejemplos de vulneraciones de seguridad de la IoT
+### 1. Identifica los puntos vulnerables
 
-En los últimos años, ha habido casos muy relevantes de dispositivos IoT vulnerados por cibercriminales. Estos son algunos de ellos:
+Es fundamental detectar las principales "puertas de entrada" que los ciberdelincuentes podrían utilizar y reforzarlas adecuadamente para minimizar riesgos.
 
-### 2016: ataque de la botnet Mirai
+### 2. Implementa soluciones de forma gradual
 
-En 2016, cientos de miles de dispositivos conectados comprometidos fueron infectados por una botnet denominada Mirai. Una botnet es una red de ordenadores que han sido infectados a propósito por malware para que los atacantes puedan realizar tareas automatizadas en Internet sin el permiso ni el conocimiento de los propietarios de los ordenadores. Como resultado del ataque Mirai, los principales servicios y sitios web, como Spotify, Netflix y PayPal dejaron de funcionar temporalmente.
+Dada su complejidad, las soluciones IoT deben integrarse de manera progresiva. Antes de introducir múltiples dispositivos en el entorno corporativo, es crucial realizar pruebas, simulaciones de ataques y capacitar tanto a los empleados como a los equipos de TI en esta nueva dinámica.
 
-### 2018: malware VPNFilter
+### 3. Revisa y adapta la política de seguridad
 
-En 2018, el malware VPNFilter infectó más de medio millón de enrutadores en más de 50 países. El malware VPNFilter puede instalar malware en dispositivos conectados a su enrutador y recopilar la información que pasa, bloquear el tráfico de red y robar contraseñas.
+Es indispensable actualizar las normativas y políticas de seguridad para alinearlas con las nuevas necesidades y prácticas derivadas de la incorporación de dispositivos IoT al entorno empresarial.
 
-### 2020: pirateo del Tesla Model X
+### 4. Mantén los dispositivos actualizados
 
-Un experto en ciberseguridad pirateó un Tesla Model X en menos de dos minutos aprovechando una vulnerabilidad del Bluetooth. Ha habido ataques similares a vehículos que utilizan llaves inalámbricas para abrirse y arrancar.
+La protección frente a ciberataques no solo depende de medidas avanzadas, sino también de acciones simples como mantener los softwares actualizados a sus últimas versiones.
 
-### 2021: pirateo de las cámaras de Verkada
+### 5. Renueva las contraseñas regularmente
 
-Verkada es una empresa de cámaras de seguridad. En 2021, hackers suizos vulneraron 150 000 transmisiones en directo de las cámaras. Estas cámaras monitoreaban la actividad dentro de edificios públicos (como escuelas, hospitales, prisiones) y organizaciones corporativas privadas.
+Cambiar periódicamente las contraseñas es esencial para fortalecer la seguridad. Utiliza combinaciones robustas de letras, números, caracteres especiales, mayúsculas y minúsculas. Además, implementa la autenticación de doble factor en los casos necesarios para reforzar el acceso.
 
-[Fuente](https://www.kaspersky.es/resource-center/preemptive-safety/best-practices-for-iot-security)
+### 6. Supervisa los servicios en la nube
+
+Dado que muchos dispositivos IoT dependen de servicios en la nube, es crucial evaluar la política de privacidad del proveedor. Asegúrate de que ofrezca cifrado adecuado y recursos de protección que cumplan con los requerimientos de seguridad tanto del dispositivo como de la empresa. Recuerda que la seguridad de tus datos en la nube es tu responsabilidad.
+
+[Fuente](https://www.ikusi.com/mx/blog/seguridad-en-iot-que-es-cuales-son-los-riesgos-y-como-minimizarlos/)

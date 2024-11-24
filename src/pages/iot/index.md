@@ -5,29 +5,45 @@ title: IoT
 
 # Internet de las cosas
 
-## ¿Qué es el Internet de las cosas?
+## ¿Qué es IoT (Internet of things)?
 
-El Internet de las cosas (IoT) es el proceso que permite conectar los elementos físicos cotidianos al Internet: desde los objetos domésticos comunes, como las bombillas de luz, hasta los recursos para la atención de la salud, como los dispositivos médicos; las prendas y los accesorios personales inteligentes; e incluso los sistemas de las ciudades inteligentes.
+La Internet de las cosas (IoT) se refiere a la red de objetos físicos equipados con sensores, software y otras tecnologías que les permiten conectarse e intercambiar datos con otros dispositivos y sistemas a través de Internet. Estos objetos pueden variar desde aparatos domésticos comunes hasta equipos industriales avanzados. Actualmente, existen más de 7 mil millones de dispositivos IoT conectados, y se proyecta que esta cifra alcance los 10 mil millones en 2020 y los 22 mil millones para 2025.
 
-Los dispositivos del IoT que se encuentran dentro de esos objetos físicos suelen pertenecer a una de estas dos categorías: son interruptores (es decir, envían las instrucciones a un objeto) o son sensores (recopilan los datos y los envían a otro lugar).
+En los últimos años, el IoT ha emergido como una de las tecnologías más revolucionarias del siglo XXI. Gracias a los dispositivos integrados, es posible conectar a Internet objetos cotidianos como electrodomésticos, automóviles, termostatos e incluso monitores para bebés, facilitando una comunicación fluida entre personas, procesos y dispositivos.
 
-![Varios dispositivos interconectados.](../../assets/iot/about.jpg)
+Con el apoyo de tecnologías como la computación de bajo costo, la nube, el big data, la analítica y las soluciones móviles, los dispositivos físicos pueden recopilar y compartir información con un mínimo de intervención humana. En este ecosistema hiperconectado, los sistemas digitales son capaces de registrar, supervisar y optimizar las interacciones entre los dispositivos conectados, creando una integración dinámica entre el mundo físico y el digital.
 
-## ¿Cómo funciona el internet de las cosas?
+![Varios dispositivos mostrados a traves del mundo.](../../assets/iot/about.jpg)
 
-El término IoT hace referencia a los sistemas de dispositivos físicos que reciben y transfieren datos a través de las redes inalámbricas, con poca intervención humana. Es posible gracias a la integración de dispositivos informáticos en todo tipo de objetos.
-Por ejemplo, un termostato inteligente (es decir, que utiliza el IoT) recibe los datos de la ubicación de su automóvil inteligente, y ambos dispositivos conectados le permiten ajustar la temperatura de su casa a pesar de que no se encuentre allí.
+---
 
-El funcionamiento de los sistemas de IoT tradicionales consiste en enviar, recibir y analizar los datos de forma permanente en un ciclo de retroalimentación. Según el tipo de tecnología de IoT, las personas o los sistemas de inteligencia artificial y aprendizaje automático (IA/ML) pueden analizar estos datos casi de inmediato o durante cierto tiempo.
+## ¿Qué hace posible su funcionamiento?
 
-Por ejemplo, para saber cuándo es ideal controlar el termostato antes de volver a casa, el sistema de IoT puede conectarse a la API de Google Maps y, de este modo, obtener información actual sobre el tráfico en el área. Además, puede utilizar los datos a largo plazo del automóvil para conocer sus hábitos de conducción. Por otra parte, las empresas de servicios públicos tienen la posibilidad de analizar los datos de IoT de los clientes con termostatos inteligentes para optimizar el sistema en general.
+Aunque la idea del Internet de las cosas (IoT) ha existido durante décadas, una serie de avances tecnológicos recientes la ha convertido en una realidad práctica:
 
-## IoT empresarial
+- Sensores económicos y de bajo consumo: La disponibilidad de sensores asequibles y confiables ha facilitado que más fabricantes adopten la tecnología IoT.
+- Conectividad mejorada: La amplia variedad de protocolos de red para Internet ha simplificado la conexión de sensores a la nube y a otros dispositivos, permitiendo una transferencia de datos eficiente.
+- Plataformas de computación en la nube: El acceso cada vez mayor a plataformas en la nube brinda a empresas y consumidores la infraestructura necesaria para escalar sus operaciones sin la complejidad de gestionarla completamente por su cuenta.
+- Avances en aprendizaje automático y análisis de datos: Gracias a estas tecnologías, junto con el acceso a grandes volúmenes de datos almacenados en la nube, las empresas pueden obtener insights de manera más rápida y sencilla. Por un lado, el IoT impulsa el desarrollo de estas herramientas; por otro, los datos generados por IoT alimentan a su vez su evolución.
+- Inteligencia artificial conversacional: Los progresos en redes neuronales han mejorado significativamente el procesamiento del lenguaje natural (PLN), integrando esta capacidad en dispositivos IoT como asistentes virtuales (Alexa, Cortana, Siri). Esto los ha hecho más atractivos, accesibles y útiles para el hogar.
 
-Por lo general, el IoT capta la atención de los consumidores, cuyas experiencias con las tecnologías, como los relojes inteligentes, se ven afectadas por las preocupaciones en torno a la seguridad y la privacidad que supone el hecho de estar conectados de forma permanente. Esta perspectiva se aplica a todos los tipos de proyectos de IoT empresarial, especialmente cuando el usuario final es el público en general.
+Estos avances no solo están expandiendo los límites del IoT, sino que también están transformando su impacto en la vida cotidiana y en las industrias.
 
-Las soluciones de IoT para las empresas les permiten mejorar los modelos comerciales actuales y entablar nuevas relaciones con los clientes y los partners, pero también implican ciertos desafíos.El volumen de datos que genera un sistema de dispositivos inteligentes (lo cual se conoce como big data) puede ser abrumador.El proceso de integración del big data en los sistemas actuales y la configuración del análisis de los datos para poder utilizar la información puede resultar complicado.
+---
 
-La seguridad es un aspecto muy importante que se debe considerar durante el diseño de los sistemas de IoT. Aun así, para muchas empresas vale la pena hacer el esfuerzo: hay casos prácticos exitosos en casi todos los sectores.
+## ¿Qué es IoT industrial?
 
-[Fuente](https://www.redhat.com/es/topics/internet-of-things/what-is-iot#%C2%BFqu%C3%A9-es-el-internet-de-las-cosas)
+El Internet de las cosas industrial (IIoT, por sus siglas en inglés) se refiere a la implementación de tecnología IoT en entornos industriales, enfocándose en la instrumentación, el control de sensores y dispositivos, y el uso de tecnologías en la nube. Tradicionalmente, las industrias han empleado la comunicación máquina a máquina (M2M) para habilitar la automatización y el control inalámbrico. Sin embargo, con la llegada de tecnologías avanzadas como la nube, la analítica y el aprendizaje automático, ahora es posible alcanzar un nivel superior de automatización, lo que permite crear nuevos modelos de negocio e incrementar las fuentes de ingresos.
+
+El IIoT también es conocido como la cuarta ola de la revolución industrial o Industria 4.0. Entre sus aplicaciones más destacadas se encuentran:
+
+- Fabricación inteligente
+- Gestión de activos conectados y mantenimiento preventivo y predictivo
+- Redes eléctricas inteligentes
+- Ciudades inteligentes
+- Logística conectada
+- Cadenas de suministro digitales avanzadas
+
+---
+
+[Fuente](https://www.oracle.com/mx/internet-of-things/)
