@@ -5,49 +5,41 @@ title: Tunelización
 
 # VPN
 
+Una VPN (Red Privada Virtual) es como un túnel secreto que protege tus datos mientras navegas por Internet. Básicamente, en lugar de que tu información viaje directamente por la red (donde puede ser interceptada por hackers o curiosos), una VPN la cifra y la envía a través de un servidor seguro antes de llegar a su destino. Esto no solo protege tu privacidad, sino que también te permite cambiar tu ubicación virtual
+
 ## ¿Cómo funciona una VPN?
 
-Una VPN crea un "túnel" por donde puede enviar datos de manera segura con herramientas de cifrado y autenticación. Las empresas suelen usar conexiones VPN porque son una forma más segura de ayudar a los empleados a acceder por vía remota a las redes empresariales privadas, incluso cuando trabajan fuera de la oficina.
+Una VPN crea un "túnel" por donde puede enviar datos, este túnel garantiza que los datos transmitidos estén protegidos contra posibles interceptaciones. En lugar de comunicarse directamente con los sitios web o servicios en línea, tu conexión se enruta primero a través del servidor VPN, que oculta tu dirección IP real y asigna una nueva. Además, la información que viaja por este túnel está cifrada, lo que asegura que sea ilegible para terceros, como hackers, proveedores de servicios de Internet o incluso gobiernos.
 
-La VPN permite que los dispositivos remotos, como las computadoras portátiles, operen como si estuvieran en la misma red local. Muchos dispositivos de enrutamiento por VPN pueden admitir decenas de túneles al mismo tiempo, con herramientas de configuración simples, lo que garantiza que todos los trabajadores tengan acceso a los datos empresariales, estén donde estén.
+![Funcionamiento de una VPN.](../../assets/tunneling/vpn-03.webp)
 
-![Imagen de un escudo con las letras VPN.](../../assets/tunneling/vpn.webp)
+## ¿Para que sirve?
 
-### Comodidad
+Los servicios de VPN se utilizan principalmente para enviar datos de forma segura a través de Internet. Las tres funciones principales de las VPN son:
 
-Las VPN son una manera cómoda de proporcionar a los empleados, incluidos los trabajadores remotos, acceso simple a la red empresarial sin que tengan que estar presentes físicamente, al tiempo que se preserva la seguridad de las redes privadas y los recursos empresariales.
+### Privacidad
 
-### Mayor seguridad
+Sin una red privada virtual, se puede acceder a sus datos personales, como contraseñas, información de tarjetas de crédito e historial de navegación, y venderlos a terceros. Las VPN utilizan el cifrado para mantener la privacidad de esta información confidencial, en especial cuando se conecta a través de redes wifi públicas. 
 
-Las comunicaciones con una conexión VPN proporcionan un mayor nivel de seguridad en comparación con otros métodos de comunicaciones remotas, lo que mantiene las redes privadas cerradas a las personas sin acceso autorizado. Las ubicaciones geográficas reales de los usuarios se protegen y no se exponen a las redes públicas o compartidas como Internet.
+### Anonimato
 
-### Administración más simple
+Su dirección IP contiene información sobre su ubicación y su actividad de navegación. Todos los sitios web de Internet rastrean estos datos por medio de las cookies y otras tecnologías similares. Pueden identificarlo cada vez que los visite. Una conexión VPN oculta su dirección IP para que permanezca en el anonimato en Internet.
 
-Las herramientas de software de VPN flexibles permiten agregar nuevos usuarios o grupos de usuarios a las redes de manera simple. Esto resulta conveniente para las empresas que crecen más rápido que sus presupuestos, ya que suelen poder ampliar las huellas de red sin agregar componentes nuevos ni armar configuraciones de red complicadas.
+### Seguridad
 
-## ¿Las VPN tienen desventajas?
+Las VPN utilizan la criptografía para proteger su conexión a Internet de accesos no autorizados. También puede actuar como mecanismo de cierre, al finalizar programas preseleccionados en caso de actividad sospechosa en Internet. Esto disminuye la probabilidad de que los datos se vean comprometidos. Estas características permiten a las empresas dar acceso remoto a los usuarios autorizados a través de sus redes empresariales.
 
-El éxito de una VPN depende de otras partes de la infraestructura de red. A continuación se presentan algunos factores que podrían causar problemas de rendimiento para la VPN:
+![VPN.](../../assets/tunneling/VPN_INFO.png)
 
-### Riesgos de seguridad de configuración
+## ¿Como utilizar una VPN?
 
-Puede ser complicado diseñar e implementar una VPN. Si no está seguro de cómo mantenerla en funcionamiento de manera segura, considere la opción de contratar a un profesional de seguridad de red experimentado para asegurarse de que no se haya vulnerado la seguridad de la VPN.
+Hay dos formas habituales de acceder a los servicios VPN para particulares:
 
-### Confiabilidad
+1. Utilizar un proveedor de VPN
+Puede elegir un servicio de VPN al que pueda acceder desde su navegador o descargar una aplicación o software en su dispositivo. Se trata de servicios de suscripción que suelen cobrar por dispositivo. Por lo tanto, pueden ser bastante caros de configurar. Además, hay que configurar cada dispositivo individualmente.
 
-Como las conexiones VPN se ejecutan desde Internet, debe elegir un proveedor de servicio de Internet (ISP) que ofrezca un servicio excelente de manera uniforme, con tiempo de inactividad mínimo o nulo.
-
-### Escalabilidad
-
-Si necesita agregar nueva infraestructura o crear nuevas configuraciones, puede enfrentar problemas técnicos de incompatibilidad, en especial si incorpora nuevos productos de varios proveedores.
-
-### Bajas velocidades de conexión
-
-Si usa un cliente de VPN que presta un servicio VPN gratuito, la velocidad de conexión puede ser lenta, ya que estos proveedores no suelen ofrecer conexiones de alta velocidad. Piense si la velocidad es suficiente para las necesidades empresariales.
-
-## ¿Conviene crear una VPN propia o comprar una?
-
-En vez de crear una VPN propia, puede comprar una solución VPN ya armada. Si está buscando comprar soluciones VPN, consulte sobre la facilidad de configuración.
+2. Utilizar un enrutador VPN
+Esto implica la compra de un enrutador con una conexión VPN preinstalada o la instalación de un software VPN en su enrutador de casa. La ventaja de este método es que todos los dispositivos que acceden a Internet a través de este enrutador quedan protegidos de forma automática. 
 
 ## 6 pasos para configurar una VPN
 
@@ -100,26 +92,10 @@ El protocolo de túnel de sockets seguros (SSTP, Secure Socket Tunneling Protoco
 
 El protocolo de túnel de punto a punto (PPTP, Point-to-Point Tunneling Protocol) es uno de los protocolos de VPN más antiguos. No obstante, se está empezando a usar menos desde que existen protocolos más rápidos y seguros.
 
-### Paso 7: solución de problemas
-
-Por lo general, el client del proveedor de VPN funciona bien desde el principio. Si ese no es el caso, pruebe las siguientes medidas:
-Cierre y vuelva a abrir el cliente y reinicie el dispositivo. Si hay otro software de VPN en ejecución, asegúrese de que esté desconectado y ciérrelo.
-
-Los VPN clients necesitan los controladores de software correctos para funcionar debidamente. En algunos casos, se puede hacer clic en la función de "reparar" para volver a cargar los controladores. Consulte la página de configuración para ver si esta función está disponible.
-Si tiene problemas para iniciar sesión, verifique las credenciales de inicio de sesión. Algunos clientes de VPN generan sus propias credenciales de inicio de sesión y otros le permiten elegir sus propias credenciales.
-
-Asegúrese de usar el inicio de sesión correcto y, de ser necesario, lea los mensajes de correo electrónico de bienvenida o las guías de inicio rápido que haya recibido del proveedor.
-
-También puede probar con un cambio de servidor. Elija conectarse a otro servidor que esté cerca de su ubicación física.
-Otra opción: intente conectarse con otros protocolos, si el cliente de VPN le permite cambiarlos. Por ejemplo, puede usar OpenVPN con TCP y luego pasar a L2TP y PPTP.
-
-Si aún tiene problemas, es posible que otros programas de software tengan la culpa. En algunos casos, los cortafuegos o el software de seguridad pueden interrumpir las conexiones de VPN. Puede desactivar temporalmente el software que posiblemente esté causando el problema; asegúrese de volver a encenderlo cuando se conecte para no exponer a los sistemas empresariales críticos a los ataques.
-
-### Paso 8: optimice la conexión
+### Paso 7: optimizar la conexión
 
 Una vez terminada la configuración básica, es hora de las mejoras. Asegúrese de que la configuración aplicada a la VPN se adapte a las necesidades de su empresa. Por ejemplo, decida si prefiere que la VPN se ejecute tan pronto los usuarios inicien sus dispositivos. Esto puede ser conveniente si se necesita la protección de una VPN todo el tiempo (por ejemplo, si la mayoría del personal trabaja fuera de la oficina). No obstante, si cree que solo necesitará la VPN en ocasiones, puede configurarla para que se inicie solo cuando sea necesario, lo que libera recursos de red para otros usos.
 
-Otra opción de optimización es elegir los servidores de uso común como predeterminados o "favoritos". Esto puede ahorrarle un poco de tiempo, ya que ni usted ni los demás empleados deberán buscar los servidores preferidos cada vez que se conecten.
-También puede activar el "dispositivo de corte automático" si su proveedor de VPN lo ofrece. El dispositivo de corte automático evita que el dispositivo envíe o reciba datos si se desconecta la VPN.
-
-[Fuente](https://www.cisco.com/c/es_mx/solutions/small-business/resource-center/security/how-to-setup-a-vpn.html#~pasos-para-configurar-una-vpn)
+[Fuente 1](https://aws.amazon.com/es/what-is/vpn/)
+[Fuente 2](https://www.xataka.com/basics/que-es-una-conexion-vpn-para-que-sirve-y-que-ventajas-tiene)
+[Fuente 3](https://www.cisco.com/c/es_mx/solutions/small-business/resource-center/security/how-to-setup-a-vpn.html#~pasos-para-configurar-una-vpn)
