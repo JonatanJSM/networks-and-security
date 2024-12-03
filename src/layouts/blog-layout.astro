@@ -6,22 +6,22 @@ function menuEntryClass(href: string) {
   return href === Astro.url.pathname ? " active" : "";
 }
 const menuEntries = {
-  honeyNets: [
+  redesPerimetrales: [
     {
-      title: "Fortaleciendo la Seguridad en Redes: El Poder de las Honey Nets",
-      href: "/honey-nets",
+      title: "Fundamentos de Redes Perimetrales.",
+      href: "/redesPerimetrales",
     },
     {
-      title: "Características y Funciones",
-      href: "/honey-nets/characteristics",
+      title: "Tecnologías y Herramientas de Seguridad Perimetral.",
+      href: "/redesPerimetrales/technologiesAndTools",
     },
     {
-      title: "Honey Nets Virtuales",
-      href: "/honey-nets/virtual",
+      title: "Extensiones de seguridad perimetral.",
+      href: "/redesPerimetrales/extensions",
     },
     {
-      title: "Ubicación en la Red",
-      href: "/honey-nets/location",
+      title: "Desafios.",
+      href: "/redesPerimetrales/challenges",
     },
   ],
   tunneling: [
@@ -96,11 +96,11 @@ const menuEntries = {
         <ul class="menu rounded-box border bg-base-100">
 
         <details open>
-        <summary class="menu-title">Honey Nets</summary>
+        <summary class="menu-title">Redes Perimetrales.</summary>
           <li>  
             <ul>
               {
-                menuEntries.honeyNets.map((entry) => (
+                menuEntries.redesPerimetrales.map((entry) => (
                   <li>
                     <a
                       class={"menu-link" + menuEntryClass(entry.href)}
